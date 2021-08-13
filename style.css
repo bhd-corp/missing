@@ -1,0 +1,155 @@
+body {
+	background: #000;
+}
+.plat {
+	width: 120%;
+	box-shadow: 50px 00px 160px #fff;
+	height: 100px;
+	position: fixed;
+	top: 1000px;
+	background: #fff;
+	left: -100px;
+}
+#s {
+	width: 200px;
+	position: fixed;top: 832px;
+	/*animation: q 4s linear;*/
+}
+#ho {
+	width: 350px;
+	position: fixed;top: 760px;left: 600px;
+	height: 280px;
+	display: none;
+}
+#tr {
+	width: 350px;
+	position: fixed;top: 800px;
+	left: 400px;
+	animation: wer 4s infinite linear;
+}
+
+#t {
+	width: 350px;
+	position: fixed;top: 800px;
+	left: 400px;
+	animation: we 10s infinite linear;
+}
+@keyframes wer {
+	0% {
+		left: 1000px;
+	}
+	100% {
+		left: -300px;
+	}
+}
+@keyframes we {
+	0% {
+		left: 3000px;
+	}
+	100% {
+		left: -300px;
+	}
+}
+audio {
+	opacity: 0;
+}
+@keyframes r {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes q {
+	0% {
+		left: 0px;
+	}
+	100% {
+		left: 700px;
+	}
+}
+h1 {
+	color: #fff;
+	width: 800px;
+	font-size: 100px;
+	position: fixed;font-family: 'Satisfy', cursive;
+	top: -50px;
+	font-weight: 100;
+	left: 50px;
+}
+.k {
+	display: none;
+}
+.pause {display: none;}
+.pause {
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	border: 10px solid #fff;
+	position: relative; top: 400px;
+}
+.pause i {
+	position: fixed;top: 650px;
+	font-size: 200px;
+	left: 420px;
+}
+.pause h1 {
+	text-align: center;
+	position: fixed;left: 100px;
+	top: 400px;
+}
+@keyframes wr {
+	0% {
+		top: 850px;
+		transform: scale(1, 1);
+	}
+	50% {
+		top: 400px;
+		transform: scale(1, 1);
+	}
+	100% {
+		top: 850px;
+		transform: scale(1, 1);
+	}
+}
+i {
+	color: #fff;
+	position: fixed;left: 840px;
+	font-size: 100px;
+	top: 45px;
+	font-weight: 100;
+	float: right;
+}
+
+.menu h1 {
+	font-size: 150px;
+	width: 89%;
+	top: 30px;
+	text-shadow: 8px 5px 5px #fff;
+	text-align: center;
+
+}
+.menu i {
+	font-size: 300px;
+	/*text-shadow: 10px 10px 10px #fff;*/
+	top: 500px;
+	left: 390px;
+}
+.menu div {
+	top: 1100px;
+}
+
+.menu #sa {
+	position: fixed;
+	top: 930px;
+	width: 200px;
+	
+}
+
+#hom {
+	width: 350px;
+	position: fixed;top: 835px;left: 650px;
+	height: 280px;
+	
+}
